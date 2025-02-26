@@ -64,6 +64,8 @@ Route::prefix('profile')->group(function () {
 });
 
 
+
+
 Route::prefix('products')->group(function () {
     Route::get('/', function () {
         return "Products List";
